@@ -1,0 +1,8 @@
+{
+  "type": "model-typescript",
+  "require": {
+    "typehub/typeschema": {
+      "target": "./src"
+    }
+  }
+}
