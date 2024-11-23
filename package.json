@@ -1,6 +1,6 @@
 {
   "name": "typeschema-model",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "This library contains models to represent a TypeSchema specification",
   "keywords": [
     "TypeSchema",
