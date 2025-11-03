@@ -5,5 +5,6 @@ import {PropertyType} from "./PropertyType";
  */
 export interface GenericPropertyType extends PropertyType {
     name?: string
+    type?: string
 }
 

@@ -6,5 +6,6 @@ import {ScalarPropertyType} from "./ScalarPropertyType";
 export interface StringPropertyType extends ScalarPropertyType {
     default?: string
     format?: string
+    type?: string
 }
 

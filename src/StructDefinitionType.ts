@@ -11,5 +11,6 @@ export interface StructDefinitionType extends DefinitionType {
     mapping?: Record<string, string>
     parent?: ReferencePropertyType
     properties?: Record<string, PropertyType>
+    type?: string
 }
 
