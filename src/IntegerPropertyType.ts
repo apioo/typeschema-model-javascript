@@ -1,9 +1,9 @@
-import {ScalarPropertyType} from "./ScalarPropertyType";
+import type {ScalarPropertyType} from "./ScalarPropertyType";
 
 /**
- * Represents an integer value
+ * Represents a whole number.
  */
 export interface IntegerPropertyType extends ScalarPropertyType {
-    type?: string
+    type: "integer"
 }
 

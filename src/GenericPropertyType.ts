@@ -1,10 +1,10 @@
-import {PropertyType} from "./PropertyType";
+import type {PropertyType} from "./PropertyType";
 
 /**
- * Represents a generic value which can be replaced with a concrete type
+ * A placeholder for a type that will be specified at runtime or through template arguments.
  */
 export interface GenericPropertyType extends PropertyType {
+    type: "generic"
     name?: string
-    type?: string
 }
 

@@ -1,11 +1,11 @@
-import {ScalarPropertyType} from "./ScalarPropertyType";
+import type {ScalarPropertyType} from "./ScalarPropertyType";
 
 /**
- * Represents a string value
+ * Represents a sequence of characters, optionally following a specific format.
  */
 export interface StringPropertyType extends ScalarPropertyType {
+    type: "string"
     default?: string
     format?: string
-    type?: string
 }
 

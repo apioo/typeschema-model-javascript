@@ -1,9 +1,9 @@
-import {CollectionPropertyType} from "./CollectionPropertyType";
+import type {CollectionPropertyType} from "./CollectionPropertyType";
 
 /**
- * Represents a map which contains a dynamic set of key value entries of the same type
+ * A property containing a map of dynamic keys to a consistent value type.
  */
 export interface MapPropertyType extends CollectionPropertyType {
-    type?: string
+    type: "map"
 }
 

@@ -1,9 +1,9 @@
-import {PropertyType} from "./PropertyType";
+import type {PropertyType} from "./PropertyType";
 
 /**
- * Represents an any value which allows any kind of value
+ * A wildcard property that accepts any valid JSON value (object, array, string, etc.).
  */
 export interface AnyPropertyType extends PropertyType {
-    type?: string
+    type: "any"
 }
 

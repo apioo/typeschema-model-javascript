@@ -1,9 +1,9 @@
-import {ArrayDefinitionType} from "./ArrayDefinitionType";
-import {MapDefinitionType} from "./MapDefinitionType";
-import {StructDefinitionType} from "./StructDefinitionType";
+import type {ArrayDefinitionType} from "./ArrayDefinitionType";
+import type {MapDefinitionType} from "./MapDefinitionType";
+import type {StructDefinitionType} from "./StructDefinitionType";
 
 /**
- * Base definition type
+ * The base abstract type for all schema definitions. It provides metadata common to all types such as descriptions and deprecation status.
  */
 export interface DefinitionType {
     deprecated?: boolean

@@ -1,9 +1,9 @@
-import {CollectionPropertyType} from "./CollectionPropertyType";
+import type {CollectionPropertyType} from "./CollectionPropertyType";
 
 /**
- * Represents an array which contains a dynamic list of values of the same type
+ * A property containing a list of items of a consistent type.
  */
 export interface ArrayPropertyType extends CollectionPropertyType {
-    type?: string
+    type: "array"
 }
 

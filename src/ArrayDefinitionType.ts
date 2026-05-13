@@ -1,9 +1,9 @@
-import {CollectionDefinitionType} from "./CollectionDefinitionType";
+import type {CollectionDefinitionType} from "./CollectionDefinitionType";
 
 /**
- * Represents an array which contains a dynamic list of values of the same type
+ * An ordered list of values where every item conforms to the same schema.
  */
 export interface ArrayDefinitionType extends CollectionDefinitionType {
-    type?: string
+    type: "array"
 }
 
