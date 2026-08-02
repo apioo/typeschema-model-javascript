@@ -13,7 +13,7 @@ import type {ReferencePropertyType} from "./ReferencePropertyType";
 import type {StringPropertyType} from "./StringPropertyType";
 
 /**
- * Abstract base for definitions that hold multiple values of a single type, such as arrays or maps.
+ * The abstract base type for collection definitions that contain multiple elements of a uniform type.
  */
 export interface CollectionDefinitionType extends DefinitionType {
     schema?: AnyPropertyType|ArrayPropertyType|BooleanPropertyType|GenericPropertyType|IntegerPropertyType|MapPropertyType|NumberPropertyType|ReferencePropertyType|StringPropertyType

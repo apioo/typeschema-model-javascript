@@ -9,7 +9,7 @@ import type {ReferencePropertyType} from "./ReferencePropertyType";
 import type {StringPropertyType} from "./StringPropertyType";
 
 /**
- * The base abstract type for all property definitions within a struct or collection.
+ * The abstract base type for all property definitions within a struct or collection.
  */
 export interface PropertyType {
     deprecated?: boolean

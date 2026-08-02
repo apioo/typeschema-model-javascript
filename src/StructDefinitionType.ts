@@ -11,7 +11,7 @@ import type {NumberPropertyType} from "./NumberPropertyType";
 import type {StringPropertyType} from "./StringPropertyType";
 
 /**
- * Represents a fixed-structure object (class/record). It supports inheritance and explicit property definitions.
+ * Represents an object with a fixed set of properties (such as a class or record). Supports inheritance and explicit property typing.
  */
 export interface StructDefinitionType extends DefinitionType {
     type: "struct"

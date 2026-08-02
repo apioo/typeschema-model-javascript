@@ -10,7 +10,7 @@ import type {ReferencePropertyType} from "./ReferencePropertyType";
 import type {StringPropertyType} from "./StringPropertyType";
 
 /**
- * Abstract base for properties that reference inline maps or arrays.
+ * The abstract base type for properties that define inline collections (maps or arrays).
  */
 export interface CollectionPropertyType extends PropertyType {
     schema?: AnyPropertyType|ArrayPropertyType|BooleanPropertyType|GenericPropertyType|IntegerPropertyType|MapPropertyType|NumberPropertyType|ReferencePropertyType|StringPropertyType

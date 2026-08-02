@@ -4,7 +4,7 @@ import type {MapDefinitionType} from "./MapDefinitionType";
 import type {StructDefinitionType} from "./StructDefinitionType";
 
 /**
- * The root object of a TypeSchema document containing imports, definitions, and the entry point.
+ * The root document object containing namespace imports, type definitions, and the root entry point.
  */
 export interface TypeSchema {
     definitions?: Record<string, ArrayDefinitionType|MapDefinitionType|StructDefinitionType>

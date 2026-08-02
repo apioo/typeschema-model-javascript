@@ -1,7 +1,7 @@
 import type {PropertyType} from "./PropertyType";
 
 /**
- * A reference to a defined type in the global 'definitions' map.
+ * Represents a reference to a type defined in the global definitions dictionary.
  */
 export interface ReferencePropertyType extends PropertyType {
     type: "reference"

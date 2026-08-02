@@ -3,7 +3,7 @@ import type {MapDefinitionType} from "./MapDefinitionType";
 import type {StructDefinitionType} from "./StructDefinitionType";
 
 /**
- * The base abstract type for all schema definitions. It provides metadata common to all types such as descriptions and deprecation status.
+ * The abstract base type for all schema definitions. It provides common metadata such as descriptions and deprecation status.
  */
 export interface DefinitionType {
     deprecated?: boolean
