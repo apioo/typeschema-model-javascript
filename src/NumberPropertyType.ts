@@ -5,5 +5,6 @@ import type {ScalarPropertyType} from "./ScalarPropertyType";
  */
 export interface NumberPropertyType extends ScalarPropertyType {
     type: "number"
+    default?: number
 }
 

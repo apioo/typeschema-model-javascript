@@ -5,5 +5,6 @@ import type {ScalarPropertyType} from "./ScalarPropertyType";
  */
 export interface BooleanPropertyType extends ScalarPropertyType {
     type: "boolean"
+    default?: boolean
 }
 
